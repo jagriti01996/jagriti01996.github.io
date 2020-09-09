@@ -1,0 +1,140 @@
+@import "mixins";
+.box {
+  // margin-top: rem(150);
+  margin: rem(150) auto;
+  border: rem(3) solid rgba(198, 198, 198, 0.5);
+  width: 100%;
+  height: rem(844);
+}
+
+.border-image {
+  display: flex;
+  position: relative;
+  top: rem(-135);
+  background: transparent;
+}
+.comma-box {
+  background: white;
+  margin-left: rem(70);
+  width: rem(203);
+  height: rem(246);
+  /* position: absolute;
+      top: rem(790); */
+  z-index: 10;
+  font: normal normal normal rem(430)/rem(501) Engravers MT;
+  letter-spacing: rem(0);
+  color: #f4f4f4;
+}
+
+.image-box {
+  /* width: rem(370);
+    height: rem(370); */
+  margin-left: 55%;
+  // margin-left: auto;
+}
+.image-box img {
+  width: rem(370);
+  height: rem(370);
+  border-radius: 50%;
+}
+.text {
+  position: relative;
+  top: rem(-200);
+}
+.text-1 {
+  // margin-top: rem(115);
+  margin-left: rem(65);
+  margin-bottom: rem(20);
+  font: normal normal 300 rem(80)/rem(90) IBM Plex Sans;
+  letter-spacing: rem(0);
+  color: rgba(82, 82, 82, 1);
+}
+
+.highlight {
+  font: normal normal bold rem(90)/rem(90) IBM Plex Sans;
+  letter-spacing: rem(0);
+  color: rgba(15, 98, 254, 1);
+}
+
+.underline {
+  background: rgba(15, 98, 254, 1) 0% 0% no-repeat padding-box;
+  border-radius: rem(10);
+  margin-top: rem(10);
+  width: rem(136);
+  height: rem(13);
+  /* color:rgba(15, 98, 254, 1); */
+}
+
+.text-2 {
+  display: flex;
+  flex-direction: row;
+}
+.detail {
+  flex: 50%;
+  margin-top: rem(180);
+  margin-left: rem(68);
+  font: normal normal normal rem(40)/rem(46) IBM Plex Sans;
+  letter-spacing: rem(0);
+  color: rgba(0, 0, 0, 1);
+}
+
+.detail a {
+  font: normal normal normal rem(40)/rem(46) IBM Plex Sans;
+  letter-spacing: rem(0);
+  color: rgba(15, 98, 254, 1);
+}
+
+.video video {
+  width: rem(835);
+  height: rem(465);
+  margin: rem(30);
+}
+
+// @media only screen and (min-device-width: rem(768)) and (max-device-width: rem(1024)) {
+//   .box {
+//     width: 100%;
+//     height: rem(600);
+//   }
+
+//   .comma-box {
+//     font-size: rem(100);
+//   }
+
+//   .image-box img {
+//     width: rem(200);
+//     height: rem(200);
+//   }
+
+//   .text-1 {
+//     font-size: rem(30);
+//     line-height: rem(30);
+//   }
+
+//   .highlight {
+//     font-size: rem(40);
+//     line-height: rem(40);
+//   }
+
+//   .underline {
+//     width: rem(30);
+//     height: rem(10);
+//   }
+
+//   .detail {
+//     font-size: rem(25);
+//     line-height: rem(25);
+//     margin-top: rem(120);
+//     margin-left: rem(20);
+//   }
+
+//   .detail a {
+//     font-size: rem(25);
+//     line-height: rem(25);
+
+//   }
+//   .video video {
+//     width: rem(400);
+//     height: rem(400);
+//     margin: rem(10);
+//   }
+// }

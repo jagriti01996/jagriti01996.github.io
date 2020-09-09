@@ -1,0 +1,24 @@
+<div class="role-name">
+    <span>{{employeeData.category}}</span> - {{employeeData.subCategory}}
+</div>
+<div class="employee-details">
+    <div class="circle"></div>
+    <div class="role-image">
+        <div style="display: flex">
+            <img class="employee" [src]="employeeData.employeeImage" />
+        </div>
+    </div>
+    <div id="content" style=" margin-top:10px;">
+        <p>{{employeeData.employeeName}}</p>
+        <ul class="emp-points list-items">
+            <li><span>Work Location : </span>{{employeeData.workLocation}}</li>
+            <li><span>Project Name : </span>{{employeeData.projectName}}</li>
+            <li><span>Project Stage : </span>{{employeeData.projectStage}}</li>
+            <li><span>Role : </span>{{employeeData.role}}</li>
+            <li><span>Team Size : </span>{{employeeData.teamSize}}</li>
+            <li><span>Availability : </span>{{employeeData.availability}}</li>
+            <li><span>Mobile : </span>{{employeeData.mobile}}</li>
+        </ul>
+    </div>
+</div>
+

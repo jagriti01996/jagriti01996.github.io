@@ -1,0 +1,306 @@
+// @import "mixins";
+// .card {
+//     margin: rem(60) rem(20) rem(40) rem(30);
+//     width: rem(400);
+//     height: rem(205);
+//     /* display: flex;
+//       flex-direction: row; */
+//     /* box-sizing: border-box; */
+//     overflow: hidden;
+//     display: flex;
+//     flex-direction: column;
+//     text-align: center;
+//     background: #edf5ff 0% 0% no-repeat padding-box;
+//     border: rem(1) solid #0f62fe;
+//     border-radius: rem(22);
+//     transition: height 0.5s;
+//     background-size: rem(150) rem(250);
+//   }
+  
+//   .collapse {
+//     /* margin: 0) auto; */
+//     padding-top: rem(60);
+//     padding-bottom: rem(20);
+//   }
+  
+//   .card:hover {
+//     background: #0f62fe 0% 0% no-repeat padding-box;
+//     border: rem(1) solid #0f62fe;
+//     border-radius: rem(22);
+//     width: rem(400);
+//     height: rem(344);
+//   }
+  
+//   .expand {
+//     display: none;
+//     // visibility: hidden;
+//   }
+  
+//   .card:hover a {
+//     text-decoration: none;
+//     color: white;
+//   }
+  
+//   .card:hover .expand {
+//     /* z-index: 2; */
+//     height: -webkit-fill-available;
+//     display: block;
+//     // visibility: visible;
+//     /* margin-top: 50); */
+//     /* background: #0f62fe; */
+//     /* display: flex; */
+//     /* margin-left: 27%; */
+//   }
+  
+//   .expand-text {
+//     padding: rem(20);
+//     margin-left: rem(120);
+//     /* margin: 0 auto; */
+//     text-align: start;
+//     font: normal normal normal rem(20)/rem(30) IBM Plex Sans;
+//     letter-spacing: rem(0);
+//   }
+  
+//   .expand-text li:before {
+//     content: "- ";
+//     margin-left: rem(-20);
+//   }
+  
+//   .expand-text li {
+//     margin-left: rem(20);
+//     list-style: none;
+//     cursor: pointer;
+//   }
+  
+//   .expand-text li{
+//     color: white;
+//   }
+//   .role h2 {
+//     /* top: 333);
+//   left: 640); */
+//     /* padding: 66) 30) 0 100); */
+//     /* margin: 5% 0 5% 10%; */
+//     padding-left: 18%;
+//     font: normal normal bold rem(31)/rem(35) IBM Plex Sans;
+//     letter-spacing: rem(0);
+//     color: #0f62fe;
+//   }
+  
+//   .card:hover h2 {
+//     color: white;
+//   }
+  
+//   .role {
+//     display: flex;
+//     /* padding: 20) 30) 0 20); */
+//     flex-grow: 1;
+    
+//     flex-direction: column;
+//     /* text-align: end; */
+//   }
+  
+//   .strip {
+//     height: rem(31);
+//     background: #0f62fe;
+//   }
+  
+//   /* li:before {
+//     content: "- ";
+//     margin-left: -20);
+//   }
+  
+//   li {
+//     margin-left: 20);
+//     list-style: none;
+//   } */
+  
+//   .triangle {
+//     border-color: transparent transparent white transparent;
+//     border-style: solid;
+//     border-width: rem(0) rem(10) rem(10) rem(10);
+//     height: rem(0);
+//     width: rem(0);
+//     margin: rem(8) auto;
+//     transform: rotate(180deg);
+//   } 
+  
+//    .card:hover .triangle {
+//     transform: rotate(0deg);
+//   }
+  
+//   @media only screen and (max-width: 1366px){
+//     .card{
+//       margin: rem(30) rem(30);
+//       width: 317px;
+//       height: 162px;
+//     }
+//     .card:hover{
+//       width: 317px;
+//       height: 350px;
+//     }
+//     .role h2{
+//       // font: normal normal bold rem(21)/rem(1) IBM Plex Sans;
+//     }
+//     .expand-text{
+//       // font: normal normal normal rem(16)/rem(25) IBM Plex Sans;
+//     }
+//   }
+
+@import "mixins";
+.card {
+    margin: 60px 20px 40px 30px;
+    width: 400px;
+    height: 205px;
+    /* display: flex;
+      flex-direction: row; */
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #edf5ff 0% 0% no-repeat padding-box;
+    border: 1px solid #0f62fe;
+    border-radius: 22px;
+    transition: height 0.5s;
+    background-size: 150px 250px;
+  }
+  
+  .collapse {
+    /* margin: 0px auto; */
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  
+  .card:hover {
+    background: #0f62fe 0% 0% no-repeat padding-box;
+    border: 1px solid #0f62fe;
+    border-radius: 22px;
+    width: 400px;
+    height: 344px;
+  }
+  
+  .expand {
+    display: none;
+    // visibility: hidden;
+  }
+  
+  .card:hover a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .card:hover .expand {
+    /* z-index: 2; */
+    height: -webkit-fill-available;
+    display: block;
+    // visibility: visible;
+    /* margin-top: 50px; */
+    /* background: #0f62fe; */
+    /* display: flex; */
+    /* margin-left: 27%; */
+  }
+  
+  .expand-text {
+    padding: 20px;
+    margin-left: 120px;
+    /* margin: 0 auto; */
+    text-align: start;
+    font: normal normal normal 20px/30px IBM Plex Sans;
+    letter-spacing: 0px;
+  }
+  
+  .expand-text li:before {
+    content: "- ";
+    margin-left: -20px;
+  }
+  
+  .expand-text li {
+    margin-left: 20px;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .expand-text li{
+    color: white;
+  }
+  .role h2 {
+    /* top: 333px;
+  left: 640px; */
+    /* padding: 66px 30px 0 100px; */
+    /* margin: 5% 0 5% 10%; */
+    padding-left: 18%;
+    font: normal normal bold 31px/35px IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #0f62fe;
+  }
+  
+  .card:hover h2 {
+    color: white;
+  }
+  
+  .role {
+    display: flex;
+    /* padding: 20px 30px 0 20px; */
+    flex-grow: 1;
+    
+    flex-direction: column;
+    /* text-align: end; */
+  }
+  
+  .strip {
+    height: 31px;
+    background: #0f62fe;
+  }
+  
+  /* li:before {
+    content: "- ";
+    margin-left: -20px;
+  }
+  
+  li {
+    margin-left: 20px;
+    list-style: none;
+  } */
+  
+  .triangle {
+    border-color: transparent transparent white transparent;
+    border-style: solid;
+    border-width: 0px 10px 10px 10px;
+    height: 0px;
+    width: 0px;
+    margin: 8px auto;
+    transform: rotate(180deg);
+  } 
+  
+   .card:hover .triangle {
+    transform: rotate(0deg);
+  }
+  
+  @media only screen and (max-width: 1024px){
+    // .card{
+    //   margin: 30px 30px;
+    //   width: 200px;
+    //   height: 162px;
+    // }
+    // .card:hover{
+    //   width: 200px;
+    //   height: 350px;
+    // }
+  }
+  @media only screen and (max-width: 1024px){
+    .card{
+      margin: 30px 30px;
+      width: 317px;
+      height: 162px;
+    }
+    .card:hover{
+      width: 317px;
+      height: 350px;
+    }
+    .role h2{
+      font: normal normal bold 21px/1px IBM Plex Sans;
+    }
+    .expand-text{
+      font: normal normal normal 16px/25px IBM Plex Sans;
+    }
+  }

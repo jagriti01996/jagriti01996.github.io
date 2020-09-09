@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    margin: rem(270) auto;
+    width: 90%;
+    height: rem(342);
+    border: rem(1) solid #c6c6c6;
+    opacity: 1;
+  }
+  
+  /* .box div{
+      flex: 50%;
+  } */
+  .image {
+    top: -rem(191);
+    // left: rem(100);
+    height: rem(490);
+    width: rem(250);
+    background: white;
+    position: relative;
+  }
+  
+  .content {
+    margin: rem(70) rem(130);
+  }
+  
+  .heading {
+    font: normal normal bold rem(40)/rem(40) IBM Plex Sans;
+    letter-spacing: rem(0);
+    color: #0f62fe;
+  }
+  
+  .items {
+    font: normal normal 600 rem(25)/rem(40) IBM Plex Sans;
+    letter-spacing: rem(0);
+    color: #000000;
+  }
+  
+  .items ul{
+      list-style: none;
+  }

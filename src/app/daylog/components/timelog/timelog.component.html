@@ -1,0 +1,8 @@
+<div id="timeLog" class="time-log" >
+    <div *ngFor='let schedule of schedules;let i=index' id="time" (click)= "onClick(schedule.time)" class="time">
+      <a href="day_in_life_of.html#image1"><h3>{{schedule.time}}</h3></a>
+      <a href="day_in_life_of.html#9am"><p>
+        {{schedule.activity}}
+      </p></a>
+    </div>
+</div>

@@ -1,0 +1,110 @@
+@import "mixins";
+:host{
+    display: block;
+    padding: rem(30);
+}
+
+.container{
+    margin-bottom: rem(300);
+}
+
+.triangle-blue {
+    border-color: transparent transparent #0f62fe transparent;
+    transform: rotate(90deg);
+    border-style: solid;
+    border-width: 0 rem(15) rem(30) rem(15);
+    // margin-top: 500px;
+    // position: relative;
+    // left: 20px;
+    transition: 1s;
+    width: 0;
+    position: relative;
+    left: rem(25);
+    top: rem(-15);
+  }
+
+.time {
+    left: rem(-70);
+    width: rem(220);
+    height: rem(100);
+    margin-top: rem(10);
+    transition: 2s;
+    /* top: 54px; */
+    position: relative;
+    font: normal normal bold rem(25)/rem(22) IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #0f62fe;
+  }
+  
+  .underline {
+    background: rgba(15, 98, 254, 1) 0% 0% no-repeat padding-box;
+    border-radius: rem(10);
+    margin-top: rem(10);
+    width: rem(88);
+    height: rem(8);
+    /* color:rgba(15, 98, 254, 1); */
+  }
+
+img{
+    position: relative;
+    padding-right: rem(60);
+    width: rem(600);
+    height: rem(400);
+}
+
+.details {
+    // width: 800px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    /* margin-left: 30%; */
+    /* margin-top: 375px; */
+    /* margin-top: 240px; */
+    // height: 365px;
+    // margin-bottom: 190px;
+    // position: relative;
+  }
+  .activity{
+    transition: 1s;
+  }
+  .activity > p {
+    font: normal normal 600 rem(32)/rem(30) IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  
+  .details ul {
+    font: normal normal normal rem(25)/rem(30) IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  
+  .details li:before {
+    content: "- ";
+    margin-left: rem(-20);
+  }
+  
+  .details li {
+    margin-left: rem(20);
+    list-style: none;
+  }
+  
+  .address-links {
+    margin-top: rem(5);
+    width: rem(400);
+    padding-bottom: rem(20);
+    position: relative;
+    /* height: 145px; */
+    background: #eff6fc 0% 0% no-repeat padding-box;
+    border: 1px solid #bedbf3;
+    border-radius: rem(7);
+    opacity: 1;
+  }
+
+  .address-links div{
+    padding: rem(30);
+  }
+
+  .address-links a{
+      display: block;
+  }

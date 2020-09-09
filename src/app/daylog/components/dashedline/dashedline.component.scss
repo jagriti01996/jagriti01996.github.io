@@ -1,0 +1,56 @@
+@import "mixins";
+.line {
+    // position: relative;
+    display: inline-block;
+    background: white;
+    left: 15%;
+    z-index: 7;
+    margin-top: rem(50);
+    /* height: rem(7600); */
+    /* height: rem(6770); */
+    border-right: rem(2) dashed #707070;
+    opacity: 1;
+  }
+  
+  .circle {
+    left: rem(19);
+    background: #0f62fe 0% 0% no-repeat padding-box;
+    border: rem(5) solid #0f62fe;
+    border-radius: 50%;
+    width: rem(16);
+    height: rem(16);
+    position: relative;
+  }
+  
+  .triangle-blue {
+    border-color: transparent transparent #0f62fe transparent;
+    transform: rotate(90deg);
+    border-style: solid;
+    border-width: 0 rem(15) rem(30) rem(15);
+    margin-top: rem(500);
+    position: relative;
+    left: rem(20);
+    transition: 2s;
+    width: 0;
+  }
+  
+  .textonline {
+    left: rem(10);
+    width: rem(115);
+    margin-top: rem(10);
+    transition: 2s;
+    /* top: rem(54); */
+    position: absolute;
+    font: normal normal bold rem(25)/rem(22) IBM Plex Sans;
+    letter-spacing: rem(0);
+    color: #0f62fe;
+  }
+  
+  .underline {
+    background: rgba(15, 98, 254, 1) 0% 0% no-repeat padding-box;
+    border-radius: rem(10);
+    margin-top: rem(10);
+    width: rem(88);
+    height: rem(8);
+    /* color:rgba(15, 98, 254, 1); */
+  }

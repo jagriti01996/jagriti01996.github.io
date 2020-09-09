@@ -1,0 +1,109 @@
+@import "mixins";
+header {
+  width: 100%;
+  height: rem(160);
+  /* margin-bottom: rem(140); */
+  background: #002d9c 0% 0% no-repeat padding-box;
+  font: normal normal 600 rem(50) / rem(65) IBM Plex Sans;
+  letter-spacing: rem(0);
+  color: #ffffff;
+}
+
+header p {
+  padding: rem(40) 0 rem(52) rem(40);
+}
+
+.role-container {
+  display: flex;
+  // height: 270px;
+  z-index: 20;
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: rem(40) auto;
+}
+
+.role-card{
+  height: rem(270);
+}
+
+.main-container {
+  display: flex;
+}
+
+.timelog {
+  width: rem(284);
+  flex-shrink: 0;
+}
+
+.activity-container {
+  flex-grow: 1;
+  border-left: rem(2) dashed #707070;
+  margin-left: rem(50);
+ 
+  /* padding-bottom: 66px; */
+  margin-bottom: rem(50);
+}
+
+.circle {
+  left: rem(-14);
+  background: #0f62fe 0% 0% no-repeat padding-box;
+  border: rem(5) solid #0f62fe;
+  border-radius: 50%;
+  width: rem(16);
+  height: rem(16);
+  position: relative;
+}
+
+.intial-text {
+  width: rem(880);
+  height: rem(52);
+  text-align: center;
+  margin: rem(190) auto;
+  font: normal normal 300 rem(40) / rem(30) IBM Plex Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.triangle {
+  border-color: transparent transparent #8d8d8d transparent;
+  border-style: solid;
+  border-width: rem(0) rem(20) rem(20) rem(20);
+  height: rem(0);
+  width: rem(0);
+  margin: rem(8) auto;
+}
+
+@media only screen and (max-width: 1366px) {
+  
+  .role-container {
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+  .role-card {
+    position: relative;
+    width: 400px;
+    height: 219px;
+  }
+
+  .role-card:hover {
+    z-index: 30;
+  }
+
+  // .role {
+  //   position: absolute;
+  // }
+}
+
+@media only screen and (max-width: 1024px)
+{
+  .timelog {
+    display: none;
+    width: 0;
+  }
+}
+

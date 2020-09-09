@@ -1,0 +1,27 @@
+<div>
+  <div class="card" [ngStyle]="{ 'background-image': 'url(' + roleImage + ')' }">
+    <!-- <img  src="assets/Rashi.svg" alt="">
+        <img src="assets/MaskGroup11.svg" alt=""> -->
+    <div class="role">
+      <div class="collapse">
+        <h2>{{ roleName }}</h2>
+      </div>
+      <div class="expand">
+        <div class="expand-text">
+          <ul class="list-items">
+            <li
+              *ngFor="let role of subRoleNames"
+              (click)="onClick(role.roleId)"
+              id=""
+            >
+              {{ role.category }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="strip">
+      <div class="triangle"></div>
+    </div>
+  </div>
+</div>

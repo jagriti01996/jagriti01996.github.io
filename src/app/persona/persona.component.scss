@@ -1,0 +1,72 @@
+@import "mixins";
+.header {
+    width: 100%;
+    height: rem(160);
+    margin-bottom: rem(140);
+    background: #002d9c 0% 0% no-repeat padding-box;
+    font: normal normal 600 rem(50)/rem(65) IBM Plex Sans;
+    letter-spacing: 0;
+    color: #ffffff;
+  }
+  
+  .header p {
+    padding: rem(40) 0 rem(52) rem(40);
+  }
+
+  .box {
+    display: flex;
+    margin: rem(270) auto;
+    width: 90%;
+    height: rem(342);
+    border: 1px solid #c6c6c6;
+    opacity: 1;
+  }
+  
+  /* .box div{
+      flex: 50%;
+  } */
+  .image {
+    top: rem(-191);
+    left: rem(100);
+    
+    background: white;
+    position: relative;
+  }
+
+  .image img{
+    height: rem(490);
+    width: rem(210);
+  }
+
+  .image img:nth-child(2){
+    padding-left: rem(50);
+        
+  }
+
+  .image img:nth-child(3){
+    padding-left: rem(40);
+  }
+
+  .image img:nth-child(4){
+    padding-left: rem(50);
+  }
+  
+  .content {
+    margin: rem(70) rem(130);
+  }
+  
+  .heading {
+    font: normal normal bold rem(40)/rem(40) IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #0f62fe;
+  }
+  
+  .items {
+    font: normal normal 600 rem(25)/rem(40) IBM Plex Sans;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  
+  .items ul{
+      list-style: none;
+  }

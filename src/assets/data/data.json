@@ -1,0 +1,1245 @@
+{
+    "data":[
+        {
+            "id": "01",
+            "times": ["9:00 AM", "10:30 AM", "11:00 AM", "11:30 AM","01:00 PM","02:00 PM","02:30 PM","03:00 PM","04:30 PM","05:00 PM","05:30 PM","06:30 PM"],
+      
+            "schedules": [
+              {
+                "time": "9:00 AM",
+                "activity":
+                  "Securely logs into IBM / Client network and starts the code development"
+              },
+              {
+                "time": "10:30 AM",
+                "activity": "Attends scrum meeting"
+              },
+              {
+                "time": "11:00 AM",
+                "activity": "Coffee Break And Yoga"
+              },
+              {
+                "time": "11:30 AM",
+                "activity":
+                  "Participates in virtual design thinking session for the next MVP"
+              },
+              {
+                "time": "1:00 PM",
+                "activity": "Lunch And Stroll"
+              },
+              {
+                "time": "2:00 PM",
+                "activity":
+                  "Runs the Automated code QA check tool Fixes the findings, submits for testing"
+              },
+              {
+                "time": "2:30 PM",
+                "activity":
+                  "Tests functionality using automated scripts new test cases run by functional SME"
+              },
+              {
+                "time": "3:30 PM",
+                "activity":
+                  "Fixes the code which gets re-tested and recorded as passed"
+              },
+              {
+                "time": "4:30 PM",
+                "activity": "Attends status update meeting"
+              },
+              {
+                "time": "5:00 PM",
+                "activity": "Virtual coffee with team"
+              },
+              {
+                "time": "5:30 PM",
+                "activity": "Gives demo to client"
+              },
+              {
+                "time": "6:30 PM",
+                "activity":
+                  "Submits Knowledge documents / Self –studies available knowledge documents"
+              }
+            ],
+      
+            "employeeData": {
+              "category": "Team Member",
+              "subCategory": "(Design / Build Project)",
+              "employeeImage": "assets/Rashi.svg",
+              "employeeName": "Rashi Gupta",
+              "workLocation": "Home Office, 10.5 Kms from IBM Kolkata premises",
+              "projectName": "XYZ Corporation S/4 HANA Implementation",
+              "projectStage": "Build",
+              "role": "Senior Developer",
+              "teamSize": "20",
+              "availability": "Slack (9AM to 7PM IST)",
+              "mobile": "+91XXXXXX (9AM to 9 PM IST)"
+            },
+      
+            "activityData": [
+              {
+                "time": "9:00 AM",
+                "image": "assets/t0900.svg",
+                "activityName":
+                  "Securely logs into IBM / Client network and starts her code development",
+                "moreinfo": [
+                  "One “time” WFH / Joining Kit",
+                  "Mandatory home broadband and UPS",
+                  "Home network segmentation",
+                  "IT Support @ Doorstep",
+                  "Managing client provided assets"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": ["https://devices.w3cloud.ibm.com/devices/#?"]
+              },
+              {
+                "time": "10:30 AM",
+                "image": "assets/t1030.svg",
+                "activityName": "Attends scrum meeting",
+                "moreinfo": [
+                  "Effective Communication",
+                  "Maximum usage of slack/calls – reduce emails"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": ["https://ibm.enterprise.slack.com/"]
+              },
+              {
+                "time": "11:00 AM",
+                "image": "assets/t1100.svg",
+                "activityName": "Coffee Break And Yoga",
+                "moreinfo": ["Physical activities during break", "IBM logo cups"]
+              },
+              {
+                "time": "11:30 AM",
+                "image": "assets/t1130.svg",
+                "activityName":
+                  "Participates in virtual design thinking session for the next MVP",
+                "moreinfo": [
+                  "Better Collaborative Tool like Mural, Trello",
+                  "Training on running virtual workshop"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": [
+                  "https://ibm.enterprise.slack.com/",
+                  "https://app.mural.co/signin"
+                ]
+              },
+              {
+                "time": "01:00 PM",
+                "image": "assets/t0100.svg",
+                "activityName": "Lunch And Stroll",
+                "moreinfo": ["Funding for refreshments"]
+              },
+              {
+                "time": "02:00 PM",
+                "image": "assets/t0200.svg",
+                "activityName" :"Runs the Automated code QA check tool Fixes the findings,submits for testing",
+                "moreinfo": ["Maximize Automation"]
+              },
+              {
+                "time": "02:30 PM",
+                "image": "assets/t0230.svg",
+                "activityName":
+                  "Tests functionality using automated scripts new test cases run by functional SME",
+                "moreinfo": [
+                  "Automated Testing",
+                  "Tools to enable collaborative testing",
+                  "Digital QA"
+                ]
+              },
+              {
+                "time": "03:30 PM",
+                "image": "assets/t0330.svg",
+                "activityName":
+                  "Fixes the code which gets re-tested and recorded as passed",
+                "moreinfo": ["Proper recording of defects and fixes", "Proper Tooling"]
+              },
+              {
+                "time": "04:30 PM",
+                "image": "assets/t0430.svg",
+                "activityName": "Attends status update meeting",
+                "moreinfo": [
+                  "Optimize Working processes",
+                  "Reports from JIRA",
+                  "MoMs in Box / Trello Boards"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": [
+                  "https://jsw.ibm.com/secure/Dashboard.jspa",
+                  "https://trello.com/login"
+                ]
+              },
+              {
+                "time": "05:00 PM",
+                "image": "assets/t0500.svg",
+                "activityName": "Virtual coffee with team",
+                "moreinfo": ["Regular Team bonding", "Informal knowledge sharing"]
+              },
+              {
+                "time": "05:30 PM",
+                "image": "assets/t0530.svg",
+                "activityName": "Gives demo to client",
+                "moreinfo": ["Enabling virtual tools","Training in virtual communication with clients","Client change Management"
+                ]
+              },
+              {
+                "time": "06:30 PM",
+                "image": "assets/t0630.svg",
+                "activityName":
+                  "Submits Knowledge documents / Self –studies available knowledge documents",
+                "moreinfo": [
+                  "Increased focus on knowledge management",
+                  "Leverages Intelligent Corpus Curator",
+                  "Increased focus on self up-skilling"
+                ]
+              }
+            ]
+          },
+        
+          {
+            "id": "02",
+            "times": ["01:00 PM", "02:00 PM","02:30 PM", "03:00 PM", "03:30 PM","04:00 PM","04:30 PM","05:00 PM","05:30 PM","06:00 PM","07:00 PM","07:30 PM","08:30 PM","09:00 PM","09:30 PM"],
+      
+            "schedules": [
+              {
+                "time": "1:00 PM",
+                "activity":
+                  "Securely logs into IBM / Client network and begins the day with incident queue monitoring"
+              },
+              {
+                "time": "2:00 PM",
+                "activity": "Performs Systems Health checks"
+              },
+              {
+                "time": "2:30 PM",
+                "activity": "Daily Standup Meeting"
+              },
+              {
+                "time": "3:00 PM",
+                "activity":
+                  "Updates Incident status & work notes. Invoke call to ABAP team for incident resolution"
+              },
+              {
+                "time": "3:30 PM",
+                "activity":
+                  "Coffee Break and Yoga"
+              },
+              {
+                "time": "4:00 PM",
+                "activity": "ABAP team does break fix and perform unit testing"
+              },
+              {
+                "time": "4:30 PM",
+                "activity":
+                  "Does functional & regression testing using automated scripts"
+              },
+              {
+                "time": "5:00 PM",
+                "activity":
+                  "Updates Incidents status and keeps in pending for end user testing"
+              },
+              {
+                "time": "5:30 PM",
+                "activity":
+                  "Initiates Problem Management involving required teams"
+              },
+              {
+                "time": "6:00 PM",
+                "activity": "Virtual coffee / snacks with team followed by a stroll"
+              },
+              {
+                "time": "7:00 PM",
+                "activity": "Daily Scrum Meeting with onsite team"
+              },
+              {
+                "time": "7:30 PM",
+                "activity": "Engages with end user for confirming incident resolution"
+              },
+              {
+                "time": "8:30 PM",
+                "activity":
+                  "Submits Knowledge articles / Updates AID / Self –studies available knowledge documents"
+              },
+              {
+                "time": "9:00 PM",
+                "activity":
+                  "Dinner"
+              },
+              {
+                "time": "9:30 PM",
+                "activity":
+                  "Incident Handover to onsite team"
+              }
+            ],
+      
+            "employeeData": {
+              "category": "Team Member",
+              "subCategory": "(AMS project)",
+              "employeeImage": "assets/Rashi.svg",
+              "employeeName": "Sayali Rane",
+              "workLocation": "Home Office,5 Kms from IBM Pune Ozone campus",
+              "projectName": "ABC Inc. AD&M Contract",
+              "projectStage": "Steady State",
+              "role": "SAP SCM Consultant",
+              "teamSize": "80",
+              "availability": "Slack (1PM to 10PM IST)",
+              "mobile": "+91XXXXXX (11 AM to 11 PM IST)"
+            },
+      
+            "activityData": [
+              {
+                "time": "01:00 PM",
+                "image": "assets/t0900.svg",
+                "activityName":
+                  "Securely logs into IBM / Client network and starts her code development",
+                "moreinfo": [
+                  "One “time” WFH / Joining Kit",
+                  "Mandatory home broadband and UPS",
+                  "Home network segmentation",
+                  "IT Support @ Doorstep",
+                  "Managing client provided assets"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": ["https://devices.w3cloud.ibm.com/devices/#?"]
+              },
+              {
+                "time": "02:00 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0100.svg",
+                "activityName": "Performs systems health checks",
+                "moreinfo": [
+                  "Centralised monitoring solution / AOCC",
+                  " Market leading ITSM tool"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": ["https://ibm.enterprise.slack.com/"]
+              },
+              {
+                "time": "02:30 PM",
+                "image": "assets/images/team-member-ams/tm-asm-1030.svg",
+                "activityName": "Daily Standup Meeting",
+                "moreinfo": ["Effective Communication", "Maximum usage of slack/calls – reduce emails"]
+              },
+              {
+                "time": "03:00 PM",
+                "image": "assets/images/team-member-ams/tm-asm-1100.svg",
+                "activityName":
+                  "Updates Incident status & work notes. Invoke call to ABAP team for incident resolution",
+                "moreinfo": [
+                  "Need for proactive communication"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": [
+                  "https://ibm.enterprise.slack.com/",
+                  "https://app.mural.co/signin"
+                ]
+              },
+              {
+                "time": "03:30 PM",
+                "image": "assets/images/team-member-ams/tm-asm-1100.svg",
+                "activityName": "Coffee Break and Yoga",
+                "moreinfo": ["Physical activities during break"," IBM logo cups"]
+              },
+              {
+                "time": "04:00 PM",
+                "image": "assets/images/team-member-ams/tm-asm-1230.svg",
+                "activityName" :"ABAP team does break fix and perform unit testing",
+                "moreinfo": ["Maximize Automation"]
+              },
+              {
+                "time": "04:30 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0100.svg",
+                "activityName":
+                  "Does functional & regression testing using automated scripts",
+                "moreinfo": [
+                  "Automated Testing",
+                  "Tools to enable collaborative testing"
+                ]
+              },
+              {
+                "time": "05:00 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0200.svg",
+                "activityName":
+                  "Updates Incidents status and keeps in pending for end user testing",
+                "moreinfo": ["Effective Communication", "Maximum usage of slack/calls – reduce emails"]
+              },
+              {
+                "time": "05:30 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0230.svg",
+                "activityName": "Initiates Problem Management involving required teams",
+                "moreinfo": [
+                  "Primary & Secondary focal to be identified for each team"],
+                "linkNames": ["IBM Asset Management link"],
+                "links": [
+                  "https://jsw.ibm.com/secure/Dashboard.jspa",
+                  "https://trello.com/login"
+                ]
+              },
+              {
+                "time": "06:00 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0300.svg",
+                "activityName": "Virtual coffee / snacks with team followed by a stroll",
+                "moreinfo": ["Regular Team bonding", "Informal knowledge sharing"," CI Ideation"]
+              },
+              {
+                "time": "07:00 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0400.svg",
+                "activityName": "Daily Scrum Meeting with onsite team",
+                "moreinfo": ["Effective Communication","Maximum usage of slack/calls – reduce emails"]
+              },
+              {
+                "time": "07:30 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0730.svg",
+                "activityName":
+                  "Engages with end user for confirming incident resolution",
+                "moreinfo": [
+                  "Enabling virtual tools",
+                  "Leveraging client’s collaboration tool",
+                  "Client change Management"
+                ]
+              },
+              {
+                "time": "08:30 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0830.svg",
+                "activityName":
+                  "Submits Knowledge articles / Updates AID / Self –studies available knowledge documents",
+                "moreinfo": [
+                  "Increased focus on knowledge management",
+                  "Increased focus on self up-skilling",
+                  "Leverages Intelligent Corpus Generator"
+                ]
+              },
+              {
+                "time": "09:00 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0600.svg",
+                "activityName":
+                  "Dinner"
+                
+              },
+              {
+                "time": "09:30 PM",
+                "image": "assets/images/team-member-ams/tm-asm-0930.svg",
+                "activityName":
+                  "Incident Handover to onsite team",
+                "moreinfo": [
+                  "Effective Communication",
+                  "Maximum usage of slack/calls – reduce emails"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "03",
+            "times": ["03:57 AM", "04:10 AM","04:23 AM", "04:33 AM", "04:41 AM","04:43 AM","04:55 AM","05:06 AM","05:33 AM"],
+      
+            "schedules": [
+              {
+                "time": "3:57 AM",
+                "activity":
+                  "Receives a call out for a SAP application related P1 incident on her roaster phone"
+              },
+              {
+                "time": "4:10 AM",
+                "activity": "Securely logs into IBM/Client network and acknowledges the P1 incident (Response) and assigns to the right queue"
+              },
+              {
+                "time": "4:23 AM",
+                "activity": "Assembles the on-call IBM SAP support team, ABC’s Infrastructure vendor contact and ABC’s SAP App Lead on the approved collaboration platform"
+              },
+              {
+                "time": "4:33 AM",
+                "activity":
+                  "Broadcasts the first P1 notification on SAP outage illustrating initial observations"
+              },
+              {
+                "time": "4:41 AM",
+                "activity":
+                  "SAP BASIS on call points to a DB-Connection error message in the system log with a timestamp of 3:47am"
+              },
+              {
+                "time": "4:43 AM",
+                "activity": "DB team confirms DB is down and starts bouncing the DB server"
+              },
+              {
+                "time": "4:55 AM",
+                "activity":
+                  "SAP System Restart automatically triggers system validation test scripts"
+              },
+              {
+                "time": "5:06 AM",
+                "activity":
+                  "Sends P1 notification indicating incident resolved and SAP application restored, closes incident and initiates Problem ticket for RCA"
+              },
+              {
+                "time": "5:33 AM",
+                "activity":
+                  "Requests SAP Basis and DB team to continue monitoring for 1 hour. Tries to get some sleep to get ready for start of 2nd shift"
+              }
+            ],
+      
+            "employeeData": {
+              "category": "Team Member",
+              "subCategory": "(Crit Sit / Major Incident Management)",
+              "employeeImage": "assets/Rashi.svg",
+              "employeeName": "Manju Reddy",
+              "workLocation": "Home Office,10 Kms from IBM Hyderabad Orion campus",
+              "projectName": "ABC Inc. AD&M Contract",
+              "projectStage": "Steady State",
+              "role": "Incident Manager Team",
+              "teamSize": "80",
+              "availability": "Slack (1PM to 10PM IST)",
+              "mobile": "+91XXXXXX (11 AM to 11 PM IST). On 247x7 stand by for 2 weeks a month"
+            },
+      
+            "activityData": [
+              {
+                "time": "3:57 AM",
+                "image": "assets/t0900.svg",
+                "activityName":
+                  "Receives a call out for a SAP application related P1 incident on her roaster phone",
+                "moreinfo": [
+                  "Needs a primary and a secondary internet connection",
+                  "Power backup necessary ",
+                  "Noise cancellation headphone"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": ["https://devices.w3cloud.ibm.com/devices/#?"]
+              },
+              {
+                "time": "4:10 AM",
+                "image": "assets/images/team-member-ams/tm-asm-0100.svg",
+                "activityName": "Securely logs into IBM/Client network and acknowledges the P1 incident (Response) and assigns to the right queue",
+                "moreinfo": [
+                  "One time WFH / Joining Kit",
+                  "Home network segmentation",
+                  "IT Support @ Doorstep",
+                  "Managing client provided assets"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": ["https://ibm.enterprise.slack.com/"]
+              },
+              {
+                "time": "4:23 AM",
+                "image": "assets/images/team-member-ams/tm-asm-1030.svg",
+                "activityName": "Assembles the on-call IBM SAP support team, ABC’s Infrastructure vendor contact and ABC’s SAP App Lead on the approved collaboration platform",
+                "moreinfo": [" Well defined escalation matrix with coordinates", "A reliable & mutually agreed upon Collaboration tool"]
+              },
+              {
+                "time": "4:33 AM",
+                "image": "assets/images/team-member-ams/tm-asm-1100.svg",
+                "activityName":
+                  "Broadcasts the first P1 notification on SAP outage illustrating initial observations",
+                "moreinfo": [
+                  "Smart Ops Cognitive solution to be used to determine possible resolution and root cause"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": [
+                  "https://ibm.enterprise.slack.com/",
+                  "https://app.mural.co/signin"
+                ]
+              },
+              {
+                "time": "4:41 AM",
+                "image": "assets/images/team-member-ams/tm-asm-1100.svg",
+                "activityName": "SAP BASIS on call points to a DB-Connection error message in the system log with a timestamp of 3:47am"
+              },
+              
+              {
+                "time": "4:43 AM",
+                "image": "assets/images/team-member-ams/tm-asm-0100.svg",
+                "activityName":
+                  "DB team confirms DB is down and starts bouncing the DB server",
+                "moreinfo": [
+                  "Regular. Status updates to all stakeholders during the Incident resolution process."
+                ]
+              },
+              {
+                "time": "4:55 AM",
+                "image": "assets/images/team-member-ams/tm-asm-0200.svg",
+                "activityName":
+                  "SAP System Restart automatically triggers system validation test scripts",
+                "moreinfo": ["Event Management, RPA and Test Automation all integrated"]
+              },
+              {
+                "time": "5:06 AM",
+                "image": "assets/images/team-member-ams/tm-asm-0230.svg",
+                "activityName": "Sends P1 notification indicating incident resolved and SAP application restored, closes incident and initiates Problem ticket for RCA",
+                "moreinfo": [
+                  "Restore notification to be triggered via a Virtual Assistant","Smart Ops generates nearly 75% of the RCA document"],
+                "linkNames": ["IBM Asset Management link"],
+                "links": [
+                  "https://jsw.ibm.com/secure/Dashboard.jspa",
+                  "https://trello.com/login"
+                ]
+              },
+              {
+                "time": "5:33 AM",
+                "image": "assets/images/team-member-ams/tm-asm-1230.svg",
+                "activityName" :"Requests SAP Basis and DB team to continue monitoring for 1 hour. Tries to get some sleep to get ready for start of 2nd shift"
+              }
+            ]
+          },
+          {
+            "id": "11",
+            "times": ["9:00 AM","10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM","12:30 PM","01:00 PM","02:00 PM","02:30 PM","03:00 PM","04:00 PM","04:30 PM","05:30 PM","06:00 PM","06:30 PM"],
+      
+            "schedules": [
+              {
+                "time": "9:00 AM",
+                "activity":
+                  "Securely logs into IBM / Client network and starts the code development"
+              },
+              {
+                "time": "10:00 AM",
+                "activity": "Conducts scrum meeting"
+              },
+              {
+                "time": "10:30 AM",
+                "activity":
+                  "Collaborates with support functions like WFM to get additional resource, procurement to get iPad for testing etc"
+              },
+              {
+                "time": "11:00 AM",
+                "activity": "Coffee Break And Yoga"
+              },
+              {
+                "time": "11:30 AM",
+                "activity":
+                  "Troubleshoots issues with team member/ Consults a Solution architect to resolve issues"
+              },
+              {
+                "time": "12:30 AM",
+                "activity":
+                  "Prepares HLD /reviews HLD prepared by team members"
+              },
+              {
+                "time": "1:00 PM",
+                "activity": "Lunch And Stroll"
+              },
+              {
+                "time": "2:00 PM",
+                "activity":
+                  "Reviews code and provides technical inputs"
+              },
+              {
+                "time": "2:30 PM",
+                "activity":
+                  "Status chech with team members"
+              },
+              {
+                "time": "3:30 PM",
+                "activity":
+                  "Reviews new specifications from client"
+              },
+              {
+                "time": "4:00 PM",
+                "activity": "Status meeting with Project Manager and other Team Leads"
+              },
+              {
+                "time": "4:30 PM",
+                "activity": "Explains the requirements to the team members"
+              },
+              {
+                "time": "5:30 PM",
+                "activity": "Virtual coffee with team"
+              },
+              {
+                "time": "6:00 PM",
+                "activity": "Operational daily governance with client lead"
+              },
+              {
+                "time": "6:30 PM",
+                "activity":
+                  "Checkpoint meeting with team members - work allocation/ backup planning"
+              }
+            ],
+      
+            "employeeData": {
+              "category": "Team Lead",
+              "subCategory": "(Design / Build Project)",
+              "employeeImage": "assets/images/team-lead-Rahul-Sen/rahul sen.svg",
+              "employeeName": "Rahul Sen",
+              "workLocation": "Home Office, 20 Kms from IBM Bangalore",
+              "projectName": "XXXEnergy B2C portal",
+              "projectStage": "Build",
+              "role": "Team Lead",
+              "teamSize": "10",
+              "availability": "Slack (9AM to 7PM IST)",
+              "mobile": "+91XXXXXX (9AM to 9 PM IST)"
+            },
+      
+            "activityData": [
+              {
+                "time": "9:00 AM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0900.svg",
+                "activityName":
+                  "Securely logs into IBM / Client network and starts her code development",
+                "moreinfo": [
+                  "One “time” WFH / Joining Kit",
+                  "Mandatory home broadband and UPS",
+                  "Home network segmentation",
+                  "IT Support @ Doorstep",
+                  "Managing client provided assets"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": ["https://devices.w3cloud.ibm.com/devices/#?"]
+              },
+              {
+                "time": "10:00 AM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-1000.svg",
+                "activityName": "Conducts daily scrum meeting with team members on progress/blockers",
+                "moreinfo": [
+                  "Effective Communication",
+                  "Maximum usage of slack/calls – reduce emails"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": ["https://ibm.enterprise.slack.com/"]
+              },
+              {
+                "time": "10:30 AM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-1030.svg",
+                "activityName": "Collaborates with support functions like WFM to get additional resource, procurement to get iPad for testing etc",
+                "moreinfo": ["ECIC Dynamic Delivery Playbook to know the process and right contacts"]
+              },
+              {
+                "time": "11:00 AM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-1100.svg",
+                "activityName":
+                  "Coffee Break And Yoga",
+                "moreinfo": [
+                  "Physical activities during break",
+                  "IBM logo cups"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": [
+                  "https://ibm.enterprise.slack.com/",
+                  "https://app.mural.co/signin"
+                ]
+              },
+              {
+                "time": "11:30 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-1130.svg",
+                "activityName": "Troubleshoots issues with team member/ Consults a Solution architect to resolve issues",
+                "moreinfo": ["Better Collaborative Tool like Mural, Trello","SME Availability tool"]
+              },
+              {
+                "time": "12:30 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-1230.png",
+                "activityName" :"Prepares HLD /reviews HLD prepared by team members",
+                "moreinfo": ["Automated HLD documentation","SAP AppDev"]
+              },
+              {
+                "time": "01:00 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0100.svg",
+                "activityName":
+                  "Lunch and Stroll",
+                "moreinfo": [
+                  "Funding for refreshments"
+                ]
+              },
+              {
+                "time": "02:00 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0200.svg",
+                "activityName":
+                  "Reviews code and provides technical inputs",
+                "moreinfo": [" Tools to enable collaborative code checks", "Leverages CAS"]
+              },
+              {
+                "time": "02:30 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0230.svg",
+                "activityName": "Status check with team members",
+                "moreinfo": [
+                  "Productivity reports",
+                  "Tools like MS teams, Webex",
+                  "JIRA reports"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": [
+                  "https://jsw.ibm.com/secure/Dashboard.jspa",
+                  "https://trello.com/login"
+                ]
+              },
+              {
+                "time": "03:00 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0300.svg",
+                "activityName": "Reviews new specifications from client",
+                "moreinfo": ["Proper recording of defects and fixes", "Proper Tooling"]
+              },
+              {
+                "time": "04:00 PM",
+                "image": "assets/t0530.svg",
+                "activityName": "Status meeting with Project Manager and other Team Leads",
+                "moreinfo": ["Enabling virtual tools","Reporting via Productivity Tracking tool","Transparent Governance Dashboards / KPIs"
+                ]
+              },
+              {
+                "time": "04:30 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0430.png",
+                "activityName":
+                  "Explains the requirements to the team members",
+                "moreinfo": [
+                  "Better Collaborative Tool like Mural, Trello"
+                ]
+              },
+              {
+                "time": "05:30 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0530.svg",
+                "activityName": "Virtual coffee with team",
+                "moreinfo": ["Regular Team bonding","Informal knowledge sharing"
+                ]
+              },
+              {
+                "time": "06:00 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0600.png",
+                "activityName": "Operational daily governance with client lead",
+                "moreinfo": ["Enabling virtual tools"," Leveraging client’s collaboration tool","Client change Management"
+                ]
+              },
+              {
+                "time": "06:30 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-0630.svg",
+                "activityName": "Checkpoint meeting with team members - work allocation/ backup planning",
+                "moreinfo": ["Tools for better Work allocation, availability checking"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "12",
+            "times": ["1:00 PM","2:00 PM", "2:30 PM","3:00 PM","3:30 PM","4:00 PM","4:30 PM","5:00 PM","5:15 PM","6:00 PM","7:00 PM","7:30 PM","8:15 PM","9:00 PM","9:30 PM"],
+      
+            "schedules": [
+              {
+                "time": "1:00 PM",
+                "activity":
+                  "Securely logs into IBM/ Client network and begins the day with incident queue monitoring"
+              },
+              {
+                "time": "2:00 PM",
+                "activity": "Reviews status of unresolved SharePoint Incidents and allocates new ones"
+              },
+              {
+                "time": "2:30 PM",
+                "activity":
+                  "Conducts Daily Standup meeting with his team"
+              },
+              {
+                "time": "3:00 PM",
+                "activity": "Reviews real time SLA dashboard of his team and reviews with his DM during portfolio stand-up"
+              },
+              {
+                "time": "3:30 PM",
+                "activity":
+                  "Coffee Break and Yoga"
+              },
+              {
+                "time": "4:00 PM",
+                "activity":
+                  "Performs QA review of incidents work notes, status updation, etc…"
+              },
+              {
+                "time": "4:30 PM",
+                "activity": "Reviews quality of automated test scripts & ensures it’s current"
+              },
+              {
+                "time": "5:00 PM",
+                "activity":
+                  "Ensures all AIDs are kept up to date by his team"
+              },
+              {
+                "time": "5:15 PM",
+                "activity":
+                  "Helps / Guides her team on technical issues"
+              },
+              {
+                "time": "6:00 PM",
+                "activity":
+                  "Virtual coffee / snacks with team followed by a stroll"
+              },
+              {
+                "time": "7:00 PM",
+                "activity": "Virtual coffee / snacks with team followed by a stroll"
+              },
+              {
+                "time": "7:30 PM",
+                "activity": "Operational daily governance with client lead"
+              },
+              {
+                "time": "5:30 PM",
+                "activity": "Virtual coffee with team"
+              },
+              {
+                "time": "8:15 PM",
+                "activity": "Checks for SharePoint product updates and keeps the Preventative Maintenance dashboard current"
+              },
+              {
+                "time": "9:00 PM",
+                "activity":
+                  "Dinner"
+              },
+              {
+                "time": "9:30 PM",
+                "activity":
+                  "Handover to onsite team lead"
+              }
+            ],
+      
+            "employeeData": {
+              "category": "Team Lead",
+              "subCategory": "(AMS project)",
+              "employeeImage": "assets/images/team-lead-Manik-Singh/Manik-Singh.svg",
+              "employeeName": "Manik Singh",
+              "workLocation": "Home Office, 6.5 Kms from IBM Noida campus",
+              "projectName": "XYZ Inc, AM Contract",
+              "projectStage": "Steady State",
+              "role": "MS SharePoint Team Lead Team",
+              "teamSize": "7",
+              "availability": "Slack (1PM to 10PM IST)",
+              "mobile": "+91XXXXXX (11AM to 11 PM IST)"
+            },
+      
+            "activityData": [
+              {
+                "time": "1:00 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0100.svg",
+                "activityName":
+                  "Securely logs into IBM/Client network and begins the day with incident queue monitoring",
+                "moreinfo": [
+                  "One “time” WFH / Joining Kit",
+                  "Mandatory home broadband and UPS",
+                  "Home network segmentation",
+                  "IT Support @ Doorstep",
+                  "Managing client provided assets"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": ["https://devices.w3cloud.ibm.com/devices/#?"]
+              },
+              {
+                "time": "2:00 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0200.svg",
+                "activityName": "Reviews status of unresolved SharePoint incidents and allocates new ones",
+                "moreinfo": [
+                  "Market leading ITSM tool",
+                  "Team capacity monitoring tool","Using KANBAN boards within the ITSM tool"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": ["https://ibm.enterprise.slack.com/"]
+              },
+              {
+                "time": "2:30 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-1030.svg",
+                "activityName": "Conducts Daily Standup meeting with his team",
+                "moreinfo": [" Effective Communication","Enabled to lead virtual teams","Maximum usage of slack/calls – reduce emails"]
+              },
+              {
+                "time": "03:00 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0300.svg",
+                "activityName":
+                  "Reviews real time SLA dashboard of his team and reviews with his DM during Portfolio stand up",
+                "moreinfo": [
+                  "Need for proactive action and communication",
+                  "Using Trello boards for portfolio updates",
+                  "Real time SLA & team productivity tracking tool"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": [
+                  "https://ibm.enterprise.slack.com/",
+                  "https://app.mural.co/signin"
+                ]
+              },
+              {
+                "time": "03:30 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0330.svg",
+                "activityName": "Real time SLA & team productivity tracking too",
+                "moreinfo": ["Physical activities during break","IBM logo cups"]
+              },
+              {
+                "time": "04:00 PM",
+                "image": "assets/images/team-lead-Rahul-Sen/rahul-sen-1230.png",
+                "activityName" :"Performs QA review of incidents work notes, status updation, etc",
+                "moreinfo": ["Maximize Automation","Real time feeding of curated content to COG3 / Smart Ops"]
+              },
+              {
+                "time": "04:30 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0430.svg",
+                "activityName":
+                  "Reviews quality of automated test scripts & ensures it’s current",
+                "moreinfo": [
+                  "Automated QA","Use of CTD to for optimising test cases","Tools to enable collaborative testing","Digital QA"
+                ]
+              },
+              {
+                "time": "05:00 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0500.svg",
+                "activityName":
+                  "Ensures all AIDs are kept up to date by his team",
+                "moreinfo": ["Maximize Automation","Real time feeding of curated content to COG3 / Smart Ops"]
+              },
+              {
+                "time": "05:15 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0515.svg",
+                "activityName": "Helps / Guides his team on technical issues",
+                "moreinfo": [
+                  "Maximum usage of slack/calls – reduce emails"
+                ],
+                "linkNames": ["IBM Asset Management link"],
+                "links": [
+                  "https://jsw.ibm.com/secure/Dashboard.jspa",
+                  "https://trello.com/login"
+                ]
+              },
+              {
+                "time": "06:00 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0600.svg",
+                "activityName": "Virtual coffee / snacks with team followed by a stroll",
+                "moreinfo": ["Regular Team bonding","Enables knowledge sharing","Provides theme of the week for CI Ideation"]
+              },
+              {
+                "time": "07:00 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0700.svg",
+                "activityName": "Daily Scrum Meeting with onsite lead",
+                "moreinfo": ["Effective Communication","Maximum usage of slack/calls – reduce emails"
+                ]
+              },
+              {
+                "time": "07:30 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0730.png",
+                "activityName":
+                  "Operational daily goverance with client lead",
+                "moreinfo": [
+                  "Enabling virtual tools","Leveraging client’s collaboration tool","Client change Management"
+                ]
+              },
+              {
+                "time": "08:15 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0815.png",
+                "activityName": "Checks for SharePoint product updates and keeps the Preventative Maintenance dashboard current",
+                "moreinfo": ["Product knowledge upskilling","Risk Management"
+                ]
+              },
+              {
+                "time": "09:00 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0900.svg",
+                "activityName": "Dinner"
+              },
+              {
+                "time": "09:30 PM",
+                "image": "assets/images/team-lead-Manik-Singh/manik-0930.png",
+                "activityName": "Handover to the Onsite team lead",
+                "moreinfo": ["Automated end of shift health checks","Usage of Slack / Trello Boards / Kanban boards"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "13",
+            "times": ["1:00 PM","2:00 PM", "2:30 PM","3:00 PM","3:30 PM","4:00 PM","4:30 PM","5:00 PM","5:15 PM","6:00 PM","7:00 PM","7:30 PM","8:15 PM","9:00 PM","9:30 PM"],
+      
+            "schedules": [
+              {
+                "time": "12:30 PM",
+                "activity":
+                  "Travels to IBM Office (Private/IBM vendor)"
+              },
+              {
+                "time": "1:00 PM",
+                "activity": "Reviews Shift plan for team members who will support the cut-over and Go-live"
+              },
+              {
+                "time": "1:30 PM",
+                "activity":
+                  "Checks progress of various items with team members"
+              },
+              {
+                "time": "1:50 PM",
+                "activity": "Confirms with team members supporting from home the logistics is operational"
+              },
+              {
+                "time": "2:00 PM",
+                "activity":
+                  "Confirms with logistics team transport arrangement for members coming in night shift"
+              },
+              {
+                "time": "2:30 PM",
+                "activity":
+                  "Apply for approval for additional team members required in office / Review the seating options"
+              },
+              {
+                "time": "2:45 PM",
+                "activity": "Webex Video session for close co-ordination between Onsite team(IBM+ Client) and team members across two locations in India"
+              },
+              {
+                "time": "4:30 PM",
+                "activity":
+                  "Snacks"
+              },
+              {
+                "time": "5:00 PM",
+                "activity":
+                  "Participates in break out sessions to resolve issues"
+              },
+              {
+                "time": "7:00 PM",
+                "activity":
+                  "Provides status updates in dedicated Slack channel so that other teams can understand progress real-time"
+              },
+              {
+                "time": "7:30 PM",
+                "activity": "Attends meeting for formal status reporting/issue resolution/ escalations"
+              },
+              {
+                "time": "8:00 PM",
+                "activity": "Webex Video session for close co-ordination between Onsite team(IBM+ Client) and team members across two locations in India"
+              },
+              {
+                "time": "8:30 PM",
+                "activity": "Participates in break out sessions to resolve issues"
+              },
+              {
+                "time": "9:30 PM",
+                "activity": "Provides status updates in dedicated Slack channel so that other teams can understand progress real-time"
+              },
+              {
+                "time": "10:00 PM",
+                "activity":
+                  "Reviews shift plan/ Back-up Plan Shift Handover"
+              }
+            ],
+      
+            "employeeData": {
+              "category": "Team Lead",
+              "subCategory": "(Cutover / Go-Live)",
+              "employeeImage": "assets/images/team-lead-tarik-ahmed/Tarik-ahmed.svg",
+              "employeeName": "Tarik Ahmed",
+              "workLocation": "Home Office, 5 Kms from IBM NCR Silokhera campus",
+              "projectName": "Ascent Pharma Inc – D&B",
+              "projectStage": "Deployment",
+              "role": "Team Lead",
+              "teamSize": "10",
+              "availability": "Slack (1PM to 10PM IST)",
+              "mobile": "+91XXXXXX (11AM to 11 PM IST). On 247x7 stand by for 4 weeks"
+            },
+      
+            "activityData": [
+              {
+                "time": "12:30 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-1230.svg",
+                "activityName":
+                  "Travels to IBM Office (Private/IBM vendor)",
+                "linkNames": ["IBM Asset Management link"],
+                "links": ["https://devices.w3cloud.ibm.com/devices/#?"]
+              },
+              {
+                "time": "1:00 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0100.svg",
+                "activityName": "Reviews Shift plan for team members who will support the cut-over and Go-live",
+                "moreinfo": [
+                  "Web based shift tracker"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": ["https://ibm.enterprise.slack.com/"]
+              },
+              {
+                "time": "1:30 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0130.svg",
+                "activityName": "Checks progress of various items with team members",
+                "moreinfo": ["Tool to track progress with visibility to all team members"]
+              },
+              {
+                "time": "1:50 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0150.svg",
+                "activityName":
+                  "Confirms with team members supporting from home the logistics is operational",
+                "moreinfo": [
+                  "New policy helping IBMers for home office setup"
+                ],
+                "linkNames": ["IBM Tools link"],
+                "links": [
+                  "https://ibm.enterprise.slack.com/",
+                  "https://app.mural.co/signin"
+                ]
+              },
+              {
+                "time": "2:00 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0200.svg",
+                "activityName" :"Apply for approval for additional team members Confirms with logistics team transport arrangement for members coming in night shift",
+                "moreinfo": ["Tool to track team member movement real-time"]
+              },
+              {
+                "time": "2:30 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0230.svg",
+                "activityName":
+                  "Apply for approval for additional team members required in office / Review the seating options",
+                "moreinfo": [
+                  "Tool to ensure seamless request and approval for seat on demand"
+                ]
+              },
+              {
+                "time": "2:45 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0245.png",
+                "activityName":
+                  "Webex Video session for close co-ordination between Onsite team(IBM+ Client) and team members across two locations in India",
+                "moreinfo": ["Enabling virtual tools","Leveraging client’s collaboration tool"]
+              },
+              {
+                "time": "4:30 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0430.svg",
+                "activityName": " - Enabling virtual tools -Leveraging client’s collaboration tool",
+                "linkNames": ["IBM Asset Management link"],
+                "links": [
+                  "https://jsw.ibm.com/secure/Dashboard.jspa",
+                  "https://trello.com/login"
+                ]
+              },
+              {
+                "time": "5:00 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0500.png",
+                "activityName": "Participates in break out sessions to resolve issues - Maximum usage of slack/calls – reduce emails"
+              },
+              {
+                "time": "7:00 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0700.svg",
+                "activityName": "Provides status updates in dedicated Slack channel so that other teams can understand progress real-time",
+                "moreinfo": ["Maximum usage of slack/calls – reduce emails"
+                ]
+              },
+              {
+                "time": "7:30 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0730.svg",
+                "activityName":
+                  "Attends meeting for formal status reporting/issue resolution/ escalations Daily Scrum Meeting with onsite lead",
+                "moreinfo": [
+                  "Tool to track progress with visibility to all team members - MoMs in Box"
+                ]
+              },
+              {
+                "time": "8:00 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0800.png",
+                "activityName": "Webex Video session for close co-ordination between Onsite team(IBM+ Client) and team members across two locations in India",
+                "moreinfo": ["Enabling virtual tools","Leveraging client’s collaboration tool - Client change Management"
+                ]
+              },
+              {
+                "time": "8:30 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0830.png",
+                "activityName": " - Enabling virtual tools - Leveraging client’s collaboration tool - Client change Management"
+              },
+              {
+                "time": "9:30 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-0930.svg",
+                "activityName": "Provides status updates in dedicated Slack channel so that other teams can understand progress real-time",
+                "moreinfo": ["Maximum usage of slack/calls – reduce emails"
+                ]
+              },
+              {
+                "time": "10:00 PM",
+                "image": "assets/images/team-lead-tarik-ahmed/tarik-1000.svg",
+                "activityName": "Reviews shift plan/ Back-up Plan Shift Handover",
+                "moreinfo": ["Web based shift tracker"
+                ]
+              }
+            ]
+          }
+      
+    ]
+
+    
+}

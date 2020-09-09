@@ -1,0 +1,39 @@
+@import "mixins";
+.header {
+//   background: #002D9C;
+  width: 100%;
+  height: rem(460);
+}
+.heading {
+  padding: rem(172) 0 rem(55) rem(75);
+  font: normal normal 600 rem(90)/rem(91) IBM Plex Sans;
+  letter-spacing: rem(0);
+  color: #ffffff;
+}
+
+.subheading {
+  font: normal normal 600 rem(70)/rem(91) IBM Plex Sans;
+  letter-spacing: rem(0);
+  color: #d0e2ff;
+}
+
+.container {
+    margin: rem(103) rem(89) rem(156) rem(94);
+    /* width: rem(1739); */
+    display: flex;
+    flex-direction: column;
+    /* height: rem(1171); */
+  }
+  .introduction h1 {
+    /* width: rem(1739); */
+    font: normal normal 300 rem(60)/rem(40) IBM Plex Sans;
+    letter-spacing: rem(0);
+    color: #000000;
+  }
+  
+  .introduction p {
+    margin-top: rem(10);
+    font: normal normal normal rem(30)/rem(40) IBM Plex Sans;
+    letter-spacing: rem(0);
+    color: #000000;
+  }

@@ -1,0 +1,13 @@
+<div class="box">
+    <div class="image" [ngStyle]="{'left':left + '%'}" >
+      <img [src]="roleImage" alt="team member image" />
+    </div>
+    <div class="content">
+      <div class="heading">{{role}}</div>
+      <div class="items">
+        <ul>
+          <li *ngFor="let items of description">{{items}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>

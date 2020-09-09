@@ -1,0 +1,38 @@
+<!-- header -->
+<header><p>#A day in life of ...</p></header>
+
+<div>
+    <div class="role-container">
+        <!-- card -->
+        <div *ngFor='let roles of roleData' class="role-card">
+            <div class="role">
+                <app-card   [roleName]="roles.roleName" [subRoleNames]="roles.subRoleName"
+        (roleid)='getRoleId($event)' 
+        [roleImage]='roles.roleImage'></app-card>
+            </div>
+        </div>
+        </div>
+</div>
+
+<!-- Intial - text -->
+<div *ngIf='showText' class="intial-text">
+    <div class="triangle"></div>
+    Click any above persona's for their a day in life ...</div>
+
+<div class="main-container">
+<!-- time-log -->
+<app-timelog *ngFor='let activePerson of activePerson' #timelog [schedules]='activePerson.schedules' class="timelog" id="timeLog" style="position: relative;"></app-timelog>
+
+<div id="activities" class="activity-container">
+<app-employeedetail *ngFor='let activePerson of activePerson' [employeeData]='activePerson.employeeData'></app-employeedetail>
+<div *ngFor='let activePerson of activePerson'>
+    <app-activity  class="activity"  *ngFor='let data of activePerson.activityData'[activityData]='data'></app-activity>
+</div>
+<div *ngIf='!showText' class="circle"></div>
+</div>
+
+</div>
+<!-- <app-dashedline [time]='times'></app-dashedline> -->
+
+<!-- employee-detail -->
+

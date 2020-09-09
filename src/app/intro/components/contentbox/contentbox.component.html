@@ -1,0 +1,33 @@
+<!-- Content - Box -->
+<div class="box">
+  <!-- comma and round image -->
+  <div class="border-image">
+    <div class="comma-box">“</div>
+    <div class="image-box">
+      <img
+        [src]="personImage"
+        
+      />
+    </div>
+  </div>
+
+  <div class="text">
+    <div class="text-1">
+        hear from <span class="highlight">{{ personName }}</span>
+        <div class="underline"></div>
+      </div>
+      <div class="text-2">
+        <div class="detail">
+          {{ designation }}<br />Global Business Services<br />
+          <a href="{{ ibmLink }}">{{ ibmLink }}</a>
+        </div>
+        <div class="video">
+          <!-- <img src="assets/AdobeStock_348418954.png" alt="video" > -->
+          <video controls poster="assets/AdobeStock_348418954.png">
+            <source src="" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+  </div>
+</div>

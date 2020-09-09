@@ -1,0 +1,27 @@
+<div class="container" style="display: flex; flex-direction: row">
+  <div #time class="time">
+    <div id="triangle1" class="triangle-blue"></div>
+    {{activityData.time}}
+    <div class="underline"></div>
+  </div>
+  <img #image id='image' [src]="activityData.image" />
+  <div  id="9am" class="details" style="margin-top: 0">
+    <div #details class="activity">
+      <p>
+        {{activityData.activityName}}
+      </p>
+      <ul>
+        <li *ngFor='let info of activityData.moreinfo'>{{info}}</li>
+      </ul>
+    </div>
+    <div #linkBox [style.display] = "activityData.linkNames!=null? 'block': 'none'"
+    class="address-links" id="addressLink1">
+      <div>
+        <p >{{activityData.linkNames}}</p>
+        <a  *ngFor='let link of activityData.links' class="help-link" href="link"
+          >{{link}}</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
